@@ -11,18 +11,6 @@ learning models [[Belikin et.al.](https://arxiv.org/pdf/1812.11118.pdf)],
 There have also been attempts at mathematically explaining
 double descent for simple linear regression settings.
 
-### Proposal
-In this project, we aim to investigate double descent more deeply and try to precisely 
-characterize the phenomenon under different settings. 
-Specifically, we shall focus on a couple of aspects the impact of **label noise** and **regularization** on 
-double descent. None of the existing works consider these aspects in detail and we hypothesize that these 
-play an integral role in double descent.   
-Conversely, we pose a particular question: can we mitigate double descent by applying adequate regularization 
-in the case of noisy data? Further, we also plan to investigate if suitable regularization can 
-bias the trajectory of gradient-based optimization algorithms in such a way that double descent can 
-be mitigated, i.e. we do not observe an intermediate dip at all or observe a very small intermediate 
-dip in the test performance.
-
 ### DataSets
 We shall try to reproduce the limited existing results from OpenAI 
 [[Nakkiran et.al.](https://arxiv.org/pdf/1912.02292.pdf)] 
