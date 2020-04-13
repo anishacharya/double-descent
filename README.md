@@ -1,4 +1,5 @@
 # Understanding Double Descent 
+We pose a particular question: can we mitigate double descent by applying adequate regularization  in the case of noisy data? Further, we also plan to investigate if suitable regularization can  bias the trajectory of gradient-based optimization algorithms in such a way that double descent can  be mitigated, i.e. we do not observe an intermediate dip at all or observe a very small intermediate  dip in the test performance.
 ### Background
 <img align="right" width="500" height="300" src="double_descent.png"> 
 We focus on the phenomenon of double descent in deep learning wherein when we increase model size or 
